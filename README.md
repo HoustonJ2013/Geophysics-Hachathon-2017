@@ -7,7 +7,7 @@ The DCGAN structure and code were adapted from [this link](https://github.com/ca
 
 The seismic images are from [SEG WIKI](https://wiki.seg.org/wiki/Open_data#3D_land_seismic_data). We selected the 3D Land seismic image (post-stack migrated image) from Teapot dome 3D Survey. 
 
-We showed that with appropriate pre-processing steps and format conversions, DCGAN is able to "learned" the patterns from 120,000 2D seismic images and generate similar images from the learned patterns. 
+We showed that with appropriate pre-processing steps and format conversions, DCGAN is able to "learned" the patterns from 60,000 2D seismic images and generate similar images from the learned patterns. 
 
 
 
