@@ -9,16 +9,20 @@ The seismic images are from [SEG WIKI](https://wiki.seg.org/wiki/Open_data#3D_la
 
 We showed that with appropriate pre-processing steps and format conversions, DCGAN is able to "learned" the patterns from 60,000 2D seismic images and generate similar images from the learned patterns. 
 
-Step 1. EDA 
-DCGAN-tensorflow_original
+Step 1. EDA:
+
+teapot_image_EDA.py
 
 Step 2. Convert to JPG format
-DCGAN-tensorflow_original
+
+Teapot_seis_to_jpg.ipynb
 
 Step3 . Train DCGAN 
+
 python main.py --dataset Seismic --input_height=50 --output_height=50 --train
 
 Step4 . Test DCGAN 
+
 python main.py --dataset Seismic --input_height=50 --output_height=50 
 
 Further thoughts：
