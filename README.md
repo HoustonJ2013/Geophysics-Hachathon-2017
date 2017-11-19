@@ -25,9 +25,6 @@ Step4 . Test DCGAN
 
 python main.py --dataset Seismic --input_height=50 --output_height=50 
 
-Seismic Image Input:
-![input](https://github.com/HoustonJ2013/Geophysics-Hackathon-2017/blob/master/samples/train_01_0566.png)
-
 
 Further thoughts：
 The learn parameters in DCGAN provides a good representation of the patterns in seismic images, and can be embeded into other seismic image recognition networks to boost the performance. 
